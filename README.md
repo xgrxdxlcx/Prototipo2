@@ -26,6 +26,7 @@ App simple en **Java** que implementa **8 intents**: 5 implícitos y 3 explícit
 
 ## 📸 Capturas
 _`(capturas/`)_
+![Texto descriptivo](capturas/01_principal.png)
 
 ## 🛠️ Compilar
 ```
