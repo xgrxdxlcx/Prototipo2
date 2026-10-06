@@ -26,7 +26,10 @@ App simple en **Java** que implementa **8 intents**: 5 implícitos y 3 explícit
 
 ## 📸 Capturas
 _`(capturas/`)_
-![Texto descriptivo](capturas/01_principal.png)
+![Pantalla Principal](capturas/01_principal.png)
+![Para mandar un correo a alguien](capturas/02_correo.png)
+![Te manda al maps con el lugar que escribiste](capturas/03_maps.png)
+![confirma](capturas/04_confirmar.png)
 
 ## 🛠️ Compilar
 ```
