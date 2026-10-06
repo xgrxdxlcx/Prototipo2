@@ -5,7 +5,7 @@ App simple en **Java** que implementa **8 intents**: 5 implícitos y 3 explícit
 ## ⚙️ Versión
 - `compileSdk 36`, `minSdk 31`, `targetSdk 36`
 - AGP 9.0.1, Java 11
-- Librerías: AppCompat, Material, Activity
+
 
 ## 🌐 Intents implícitos (abren otras apps)
 | # | Intent | Pasos de prueba |
@@ -23,18 +23,12 @@ App simple en **Java** que implementa **8 intents**: 5 implícitos y 3 explícit
 | 2 | `MainActivity → ConfigActivity` | Tocar *Ajustes* → *Volver* |
 | 3 | `MainActivity → ConfirmActivity` (`registerForActivityResult`) | *Confirmar* → Sí/No → aparece un Toast con el resultado |
 
-## ✅ Validaciones
-- Lugar y nombre no pueden estar vacíos
-- URL válida (`Patterns.WEB_URL`)
-- Teléfono válido (`Patterns.PHONE`)
-- Correo válido (`Patterns.EMAIL_ADDRESS`)
-- `try/catch ActivityNotFoundException` si no hay app que pueda abrir el intent
 
 ## 📸 Capturas
-_(agregar mínimo 4 capturas en la carpeta `capturas/`)_
+_(agregar mínimo 4 capturas en la carpeta `capturas/01_principal.png`)_
 
 ## 🛠️ Compilar
 ```
 ./gradlew assembleDebug
 ```
-APK en `app/build/outputs/apk/debug/`
+APK en `app/build/generate app bundles or apks/generate apks`
