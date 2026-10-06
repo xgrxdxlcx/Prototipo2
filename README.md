@@ -25,7 +25,7 @@ App simple en **Java** que implementa **8 intents**: 5 implícitos y 3 explícit
 
 
 ## 📸 Capturas
-_(agregar mínimo 4 capturas en la carpeta `capturas/01_principal.png`)_
+_(agregar mínimo 4 capturas en la carpeta `capturas/`)_
 
 ## 🛠️ Compilar
 ```
